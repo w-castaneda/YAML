@@ -1,0 +1,11 @@
+name : hola mundo
+
+on: [push]
+
+jobs:
+    hola:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Hola Mundo
+              run: echo "Hola Will, Que onda con este mundo!!"
